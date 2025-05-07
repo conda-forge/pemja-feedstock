@@ -1,5 +1,5 @@
 {% set name = "pemja" %}
-{% set version = "0.5.0" %}
+{% set version = "0.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pemja-{{ version }}.tar.gz
-  sha256: b58165b83191fd00c7529b1975cb8a5f05d2075b465dcc558147e4e871ee28cd
+  sha256: dd3bd37c0a826ba2982e3ba5e005e0339a627894322f2d1f84fa2336abe3851e
 
 build:
   skip: true  # [win or py<3.8]
