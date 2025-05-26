@@ -19,6 +19,10 @@ requirements:
     - ${{ compiler('c') }}
     - ${{ stdlib("c") }}
     - openjdk
+    - if: build_platform != target_platform
+      then:
+        - cross-python_${{ target_platform }}
+        - python
   host:
     - python
     - packaging >=20.5
