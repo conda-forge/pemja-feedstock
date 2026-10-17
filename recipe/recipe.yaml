@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.6.2"
+  version: "0.6.3"
 
 package:
   name: pemja
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pemja/pemja-${{ version }}.tar.gz
-  sha256: 6b51fb600d56708203874638c8fd7c473da41b8faba515831724da6563f5acca
+  sha256: 8425d4ad28fc6deab325dc2a9c9fb3675beae85a27f1bfec0d5667d95f1b4baa
 
 build:
   number: 0
